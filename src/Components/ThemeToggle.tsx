@@ -18,7 +18,7 @@ export default function ThemeToggle() {
   }, [darkMode]);
 
   return (
-    <button onClick={() => setDarkMode(!darkMode)} className="text-xl">
+    <button onClick={() => setDarkMode(!darkMode)} className="text-xl transition-transform duration-200 hover:scale-110 cursor-pointer">
       {darkMode ? "🌙" : "☀️"}
     </button>
   );

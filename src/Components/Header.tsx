@@ -13,9 +13,9 @@ export default function Header() {
         <h1 className="font-bold text-xl">Vlad Cirlugea</h1>
       </div>
       <nav className='flex gap-4'>
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <Link className='transition-transform duration-200 hover:scale-110' to="/">Home</Link>
+        <Link className='transition-transform duration-200 hover:scale-110' to="/projects">Projects</Link>
+        <Link className='transition-transform duration-200 hover:scale-110' to="/contact">Contact</Link>
         <ThemeToggle />
       </nav>
     </header>

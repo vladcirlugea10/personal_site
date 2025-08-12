@@ -34,7 +34,7 @@ export default function useGithubRepos(username: string) {
     }
 
     fetchRepos();
-  }, [username]);
+  }, []);
 
   return { repos, loading, error };
 }
