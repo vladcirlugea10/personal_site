@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@source "../public/index.html" "./**/*.{html,js,jsx,ts,tsx}";
+
+/* You can put your global styles here. Tailwind v4 uses the new import style. */
+
+/* Example custom layer if needed later:
+@layer utilities {
+  .content-auto { content-visibility: auto; }
+}
+*/
